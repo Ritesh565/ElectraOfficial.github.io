@@ -182,6 +182,18 @@
                 transform: translateY(-20px);
             }
         }
+
+        @media screen and (max-width:768px){
+            header img{
+                position:relative;
+            }
+           }
+
+           @media screen and (max-width:281px){
+               header .logo-text{
+                   font-size:23px;
+               }
+           }
     </style>
 </head>
 
