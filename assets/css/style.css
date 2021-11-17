@@ -610,7 +610,8 @@ header .menu-toggle {
         margin: 9px;
         font-family: 'Poppins', sans-serif;
         font-size: 29px;
-        margin-left: 61px;
+        margin-left: 2px;
+        
     }
     header img {
         height: auto;
@@ -618,7 +619,9 @@ header .menu-toggle {
         max-width: 61px;
         /* margin-left: -6px;
         margin-top: 2px; */
-        position: absolute;
+        /*position:absolute ;*/
+        
+        
     }
 }
 
@@ -650,4 +653,13 @@ header .menu-toggle {
     .post-slider .prev {
         left: 10px;
     }
+}
+
+@media only screen and (max-width: 325px){
+    header .logo-text{
+        font-size: 22px;
+    }
+   header img{
+    height: auto;
+   } 
 }
